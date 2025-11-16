@@ -1,0 +1,426 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Pedagogía - ISNS</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <!-- venobox popup -->
+  <link rel="stylesheet" href="plugins/venobox/venobox.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+  
+  <!--Favicon-->
+  <link rel="icon" href="images/Logo/Logo-isns.ico">
+
+</head>
+
+<body>
+  <div id="header-container"></div>
+  
+
+<!-- Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content rounded-0 border-0 p-4">
+            <div class="modal-header border-0">
+                <h3>Registrarse</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="login">
+                    <form action="#" class="row">
+                        <div class="col-12">
+                            <input type="text" class="form-control mb-3" id="signupPhone" name="signupPhone" placeholder="Teléfono">
+                        </div>
+                        <div class="col-12">
+                            <input type="text" class="form-control mb-3" id="signupName" name="signupName" placeholder="Nombre">
+                        </div>
+                        <div class="col-12">
+                            <input type="email" class="form-control mb-3" id="signupEmail" name="signupEmail" placeholder="Email">
+                        </div>
+                        <div class="col-12">
+                            <input type="password" class="form-control mb-3" id="signupPassword" name="signupPassword" placeholder="Contraseña">
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Ingresar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content rounded-0 border-0 p-4">
+            <div class="modal-header border-0">
+                <h3>Login</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="#" class="row">
+                    <div class="col-12">
+                        <input type="text" class="form-control mb-3" id="loginPhone" name="loginPhone" placeholder="Teléfono">
+                    </div>
+                    <div class="col-12">
+                        <input type="text" class="form-control mb-3" id="loginName" name="loginName" placeholder="Nombre">
+                    </div>
+                    <div class="col-12">
+                        <input type="password" class="form-control mb-3" id="loginPassword" name="loginPassword" placeholder="Contraseña">
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">INGRESAR</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- page title -->
+<section class="page-title-section overlay" data-background="images/backgrounds/page-title.jpg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="list-inline custom-breadcrumb">
+          <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="carreras.html">Todas las Carreras</a></li>
+          <li class="list-inline-item text-white h3 font-secondary nasted">Tecnicatura Superior en Pedagogía y Educación Social</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /page title -->
+
+<!-- section -->
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mb-4">
+        <!-- course thumb -->
+        <img src="images/courses/course-single.jpg" class="img-fluid w-100" alt="Curso Pedagogía y Educación Social">
+      </div>
+    </div>
+    <!-- course info -->
+    <div class="row align-items-center mb-5">
+      <div class="col-12 mb-4">
+        <h2 class="text-center">Tecnicatura Superior en Pedagogía y Educación Social</h2>
+      </div>
+      <div class="col-12">
+        <ul class="list-inline text-center">
+          <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+            <div class="d-flex align-items-center justify-content-center">
+              <i class="ti-book text-primary icon-md mr-2"></i>
+              <div class="text-left">
+                <h6 class="mb-0">DURACIÓN</h6>
+                <p class="mb-0">3 Años</p>
+              </div>
+            </div>
+          </li>
+          <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+            <div class="d-flex align-items-center justify-content-center">
+              <i class="ti-calendar text-primary icon-md mr-2"></i>
+              <div class="text-left">
+                <h6 class="mb-0">MODALIDAD</h6>
+                <p class="mb-0">Presencial</p>
+              </div>
+            </div>
+          </li>
+          <li class="list-inline-item">
+            <div class="d-flex align-items-center justify-content-center">
+              <i class="ti-medall text-primary icon-md mr-2"></i>
+              <div class="text-left">
+                <h6 class="mb-0">TÍTULO</h6>
+                <p class="mb-0">Técnico Superior en Pedagogía y Educación Social</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- course details -->
+    <div class="row">
+      <div class="col-12 mb-4">
+        <h3 class="h2 mb-4">Sobre la carrera</h3>
+        <p class="lead">La Tecnicatura Superior en Pedagogía y Educación Social es una carrera de 3 años que forma profesionales capaces de diseñar, implementar y evaluar proyectos educativos y sociales, promoviendo el desarrollo integral de las personas y comunidades.</p>
+      </div>
+      <div class="col-12 mb-4">
+        <h3 class="h2 mb-4">Requisitos</h3>
+        <div class="col-12 px-0">
+          <div class="row">
+            <div class="col-md-6">
+              <ul class="list-styled lead">
+                <li>Fotocopia legalizada del título secundario.</li>
+                <li>Fotocopia legalizada de la partida de nacimiento.</li>
+                <li>Fotocopia DNI.</li>
+                <li>Certificado de buena conducta.</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul class="list-styled lead">
+                <li>2 fotos carné.</li>
+                <li>1 folio oficio.</li>
+                <li>Pago de la matrícula.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 mb-4">
+        <h3 class="h2 mb-4">Plan de Estudios</h3>
+        <ul class="list-styled lead">
+          <li>Problemáticas socio-culturales contemporáneas</li>
+          <li>Problemáticas educativas contemporáneas</li>
+          <li>Grupos y Equipos de Trabajo</li>
+          <li>Lenguajes Expresivos y Juegos I</li>
+          <li>Infancias y Adolescencias</li>
+          <li>Enseñanza y Aprendizaje en contextos diversos</li>
+          <li>Pedagogía y Educación Social I</li>
+          <li>Seminario de Práctica Profesional I</li>
+          <li>Relación Estado-Sociedad</li>
+          <li>Pedagogía</li>
+          <li>Infancias y Adolescencias II</li>
+          <li>Taller de Comunicación</li>
+          <li>Taller de Nuevas Tecnologías Aplicadas</li>
+          <li>Pedagogía y Educación Social II</li>
+          <li>Taller de Metodología de la Investigación Social</li>
+          <li>Seminario de Práctica Profesional II</li>
+          <li>Procesos políticos económicos y el mundo del trabajo</li>
+          <li>Gestión Estrategic y Politicas Publicas</li>
+          <li>Lenguajes Expresivos y Juegos II</li>
+          <li>Enseñanza y Aprendizaje en Contextos Diversos II</li>
+          <li>Taller de Gestión Integral de Proyectos Socioeducativos </li>
+          <li>Taller de Producción de Materiales de Comunicación y Educación</li>
+          <li>Seminario de Práctica Profesional III</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+      
+<!-- related course -->
+<section class="section pt-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="section-title">Otras Carreras</h2>
+      </div>
+    </div>
+    <!-- course list -->
+    <div id="coursesCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <!-- Primer slide -->
+        <div class="carousel-item active">
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 col-sm-8 mb-5">
+              <div class="card p-0 border-primary rounded-0 hover-shadow h-100 mx-auto" style="max-width: 350px;">
+                <img class="card-img-top rounded-0 course-img" src="images/courses/course-3.png" alt="Comunicación" loading="lazy">
+                <div class="card-body d-flex flex-column">
+                  <ul class="list-inline mb-2">
+                    <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i></li>
+                    <li class="list-inline-item"><a class="text-color" href="#">Tecnicatura</a></li>
+                  </ul>
+                  <a href="comunicacion.html">
+                    <h4 class="card-title">Tecnicatura Superior en Comunicación Gráfica y Audiovisual</h4>
+                  </a>
+                  <div class="card-text mb-4">
+                    <p>Aprobado por Resolución Ministerial N° 1132/2009.</p>
+                    <p>Modalidad: Presencial</p>
+                    <p>Duración: 3 años y un cuatrimestre</p>
+                  </div>
+                  <a href="comunicacion.html" class="btn btn-primary btn-sm mt-auto">Leer más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Segundo slide -->
+        <div class="carousel-item">
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 col-sm-8 mb-5">
+              <div class="card p-0 border-primary rounded-0 hover-shadow h-100 mx-auto" style="max-width: 350px;">
+                <img class="card-img-top rounded-0 course-img" src="images/courses/DiseñoGrafico.png" alt="Diseño Gráfico" loading="lazy">
+                <div class="card-body d-flex flex-column">
+                  <ul class="list-inline mb-2">
+                    <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i></li>
+                    <li class="list-inline-item"><a class="text-color" href="#">Tecnicatura</a></li>
+                  </ul>
+                  <a href="carreradiseno.html">
+                    <h4 class="card-title">Tecnicatura Superior en Diseño Gráfico y Multimedia</h4>
+                  </a>
+                  <div class="card-text mb-4">
+                    <p>Aprobado por Resolución Ministerial N° 4126/2024.</p>
+                    <p>Modalidad: Semipresencial</p>
+                    <p>Duración: 3 años</p>
+                  </div>
+                  <a href="carreradiseno.html" class="btn btn-primary btn-sm mt-auto">Leer más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Tercer slide -->
+        <div class="carousel-item">
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 col-sm-8 mb-5">
+              <div class="card p-0 border-primary rounded-0 hover-shadow h-100 mx-auto" style="max-width: 350px;">
+                <img class="card-img-top rounded-0 course-img" src="images/courses/course-5.png" alt="Psicología Social" loading="lazy">
+                <div class="card-body d-flex flex-column">
+                  <ul class="list-inline mb-2">
+                    <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i></li>
+                    <li class="list-inline-item"><a class="text-color" href="#">Tecnicatura</a></li>
+                  </ul>
+                  <a href="carrerapsocial.html">
+                    <h4 class="card-title">Tecnicatura Superior en Psicología Social</h4>
+                  </a>
+                  <div class="card-text mb-4">
+                    <p>Aprobado por Resolución Ministerial N° 556/2010.</p>
+                    <p>Modalidad: Presencial</p>
+                    <p>Duración: 3 años</p>
+                  </div>
+                  <a href="carrerapsocial.html" class="btn btn-primary btn-sm mt-auto">Leer más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Controles del carrusel -->
+      <a class="carousel-control-prev" href="#coursesCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#coursesCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Siguiente</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- newsletter -->
+<section class="newsletter">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8 text-center">
+        <h3 class="text-white">Suscribite</h3>
+        <form action="#">
+          <div class="input-wrapper">
+            <input type="email" class="form-control border-0" id="newsletter" name="newsletter" placeholder="Ingresa tu E-mail...">
+            <button type="submit" value="send" class="btn btn-primary">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =================== FOOTER =================== -->
+<footer>
+  <div class="footer bg-footer section-sm border-bottom" style="padding: 40px 0;">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3 mb-lg-0 text-center">
+          <!-- logo -->
+          <a class="logo-footer" href="index.html"><img class="img-fluid mb-2 logo-blanco-redondeado" src="images/logo.png" alt="logo"></a>
+          <ul class="list-unstyled">
+            <li class="mb-1">Buenos Aires 662 - Corrientes Capital</li>
+            <li class="mb-1">+54 3795 11-0674</li>
+            <li class="mb-1"><a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRvwLqFbvCqDQDxNwZHwLSFLXsPdspllRVLJPMLzvTNLkkFrPcqGKgKCDqXdNMbcqmrktjV" class="text-color" style="text-decoration: none;" target="_blank" rel="noopener"><i class="ti-email mr-2"></i>infoinstitutonuevosiglo@gmail.com</a></li>
+          </ul>
+        </div>
+        <!-- company -->
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3 mb-md-0 text-center">
+          <h4 class="text-white mb-2">ISNS</h4>
+          <ul class="list-unstyled">
+            <li class="mb-1"><a class="text-color" href="nosotros.html" target="_blank">Nosotros</a></li>
+            <li class="mb-1"><a class="text-color" href="contacto.html" target="_blank">Contacto</a></li>
+            <li class="mb-1"><a class="text-color" href="carreras.html" target="_blank">Carreras</a></li>
+          </ul>
+        </div>
+        <!-- links -->
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3 mb-md-0 text-center">
+          <h4 class="text-white mb-2">Enlaces Rápidos</h4>
+          <ul class="list-unstyled">
+            <li class="mb-1"><a class="text-color" href="https://www.uces.edu.ar/educacion-distancia" target="_blank" rel="noopener">UCES Virtual</a></li>
+            <li class="mb-1"><a class="text-color" href="https://api.whatsapp.com/send?phone=5493795110674" target="_blank" rel="noopener">WhatsApp</a></li>
+          </ul>
+        </div>
+        <!-- social -->
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3 mb-md-0 text-center">
+          <h4 class="text-white mb-2">Síguenos</h4>
+          <ul class="list-unstyled">
+            <li class="mb-1"><a class="text-color" href="https://www.facebook.com/share/1ZWhtoCT53/" target="_blank" rel="noopener"><i class="ti-facebook mr-2"></i>Facebook</a></li>
+            <li class="mb-1"><a class="text-color" href="https://www.instagram.com/institutosuperiornuevosiglo/" target="_blank" rel="noopener"><i class="ti-instagram mr-2"></i>Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- copyright -->
+  <div class="copyright py-2 bg-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <p class="mb-0">Instituto Superior Nuevo Siglo. Todos los Derechos Reservados.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- =================== /FOOTER =================== -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- aos -->
+<script src="plugins/aos/aos.js"></script>
+<!-- venobox popup -->
+<script src="plugins/venobox/venobox.min.js"></script>
+<!-- mixitup filter -->
+<script src="plugins/mixitup/mixitup.min.js"></script>
+<!-- google map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&amp;libraries=places"></script>
+<script src="plugins/google-map/gmap.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+<script src="js/header.js"></script>
+
+<script>
+$(document).ready(function(){
+  $('#coursesCarousel').carousel({
+    interval: 5000,
+    wrap: true,
+    keyboard: true
+  });
+});
+</script>
+
+</body>
+</html>
