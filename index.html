@@ -26,6 +26,14 @@
   <!-- Main Stylesheet -->
   <link href="css/style.css" rel="stylesheet">
   
+  <!-- Mobile Responsive Styles -->
+  <link href="css/mobile.css" rel="stylesheet" media="screen and (max-width: 768px)">
+  <style>
+    .bg-gray {
+      background-color: #e8e8e8 !important;
+    }
+  </style>
+  
   <!--Favicon-->
   <link rel="icon" href="images/Logo/Logo-isns.ico">
 
@@ -61,26 +69,41 @@
         <img class="img-fluid" src="images/banner/banner-feature.png" alt="banner-feature">
       </div>
       <div class="col-xl-8 col-lg-7">
-        <div class="row feature-blocks bg-gray justify-content-between">
-          <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left">
-            <i class="ti-book mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
-            <h3 class="mb-xl-4 mb-lg-3 mb-4">Horarios accesibles</h3>
-            <p>En nuestro instituto podes cursar fuera del horario laboral, teniendo así la posibilidad de realizar ambas actividades</p>
+        <div class="row feature-blocks bg-gray justify-content-center">
+          <!-- Fila 1 -->
+          <div class="col-12 d-flex flex-wrap justify-content-center">
+            <div class="col-md-5 col-xl-5 mb-4 text-center px-2">
+              <div class="h-100 p-3">
+                <i class="ti-book mb-2 d-block feature-icon"></i>
+                <h3 class="mb-2">Horarios accesibles</h3>
+                <p class="mb-0">En nuestro instituto podes cursar fuera del horario laboral, teniendo así la posibilidad de realizar ambas actividades</p>
+              </div>
+            </div>
+            <div class="col-md-5 col-xl-5 mb-4 text-center px-2">
+              <div class="h-100 p-3">
+                <i class="ti-blackboard mb-2 d-block feature-icon"></i>
+                <h3 class="mb-2">Material Digital</h3>
+                <p class="mb-0">Accede a todo el material de estudio digitalizado, dentro y fuera del horario de tus clases y desde pc o celular</p>
+              </div>
+            </div>
           </div>
-          <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left">
-            <i class="ti-blackboard mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
-            <h3 class="mb-xl-4 mb-lg-3 mb-4">Material Digital</h3>
-            <p>Accede a todo el material de estudio digitalizado, dentro y fuera del horario de tus clases y desde pc o celular</p>
-          </div>
-          <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left">
-            <i class="ti-agenda mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
-            <h3 class="mb-xl-4 mb-lg-3 mb-4">UCES Virtual</h3>
-            <p>Estudiá diferentes carreras a distancia en nuestra sala de informática, rindiendo los finales mediante nuestra plataforma virtual</p>
-          </div>
-          <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left">
-            <i class="ti-write mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
-            <h3 class="mb-xl-4 mb-lg-3 mb-4">ISNS Solidario</h3>
-            <p>Ayudanos a construir una sociedad mas equitativa, forma parte de este hermoso grupo de trabajo. ISNS Solidario</p>
+          
+          <!-- Fila 2 -->
+          <div class="col-12 d-flex flex-wrap justify-content-center">
+            <div class="col-md-5 col-xl-5 mb-4 text-center px-2">
+              <div class="h-100 p-3">
+                <i class="ti-agenda mb-2 d-block feature-icon"></i>
+                <h3 class="mb-2">UCES Virtual</h3>
+                <p class="mb-0">Estudiá diferentes carreras a distancia en nuestra sala de informática, rindiendo los finales mediante nuestra plataforma virtual</p>
+              </div>
+            </div>
+            <div class="col-md-5 col-xl-5 mb-4 text-center px-2">
+              <div class="h-100 p-3">
+                <i class="ti-write mb-2 d-block feature-icon"></i>
+                <h3 class="mb-2">ISNS Solidario</h3>
+                <p class="mb-0">Ayudanos a construir una sociedad mas equitativa, forma parte de este hermoso grupo de trabajo. ISNS Solidario</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -90,7 +113,7 @@
 <!-- =================== /BANNER FEATURE =================== -->
 
 <!-- =================== ABOUT US =================== -->
-<section class="section">
+<section class="section" id="about">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-6 order-2 order-md-1">
@@ -100,7 +123,9 @@
           A lo largo de más de 30 años de historia institucional, Nuevo Siglo ha experimentado un crecimiento constante, incorporando nuevas carreras, propuestas y desafíos que lo han posicionado en un lugar de prestigio y reconocimiento social.
           
           En octubre de 2014, el Instituto Superior Nuevo Siglo se convirtió en Unidad de Formación Universitaria, gracias al convenio con la UCES Virtual, lo que constituyó un avance significativo a favor de sus educandos y de toda la comunidad regional, ofreciendo nuevas y más alternativas de formación profesional superior.</p>
-        <a href="nosotros.html" class="btn btn-primary" target="_blank">Leer más</a>
+        <div class="mt-4">
+          <a href="nosotros.html" class="btn btn-primary btn-sm px-4" target="_blank" style="min-width: 150px;">Leer más</a>
+        </div>
       </div>
       <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
         <img class="img-fluid w-100" src="images/about/about-us.png" alt="about image">
@@ -119,7 +144,7 @@
           <h2 class="mb-0 text-nowrap mr-3">Carreras</h2>
           <div class="border-top w-100 border-primary d-none d-sm-block"></div>
           <div>
-            <a href="carreras.html" class="btn btn-sm btn-primary ml-sm-3 d-none d-sm-block">Leer más</a>
+            <a href="carreras.html" class="btn btn-primary btn-sm ml-sm-3 d-none d-sm-block">Leer más</a>
           </div>
         </div>
       </div>
@@ -264,7 +289,9 @@ $(document).ready(function(){
           <h2 class="section-title">¿Que es UCES?</h2>
           <p>Esta breve historia de las primeras décadas de la Universidad de Ciencias Empresariales y Sociales (UCES) fue inicialmente preparada en diciembre de 1998 y completada a fines de 2001 con el objeto de servir de base –antes de que el tiempo comience a borrar hechos y nombres– a los estudiosos que, sin duda, habrán de detenerse en los orígenes de nuestra institución.</p>
           <p>Mediante las instalaciones del Instituto Nuevo Siglo vas a poder acceder a nuestras carreras, cursando de manera virtual en horarios acordes a los tuyos</p>
-          <p>&nbsp;</p>
+          <div class="mt-4 text-center">
+            <a href="https://www.uces.edu.ar/" class="btn btn-primary btn-sm px-5" target="_blank" rel="noopener" style="min-width: 180px;">Visitar UCES</a>
+          </div>
         </div>
       </div>
     </div>

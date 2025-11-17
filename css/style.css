@@ -1701,4 +1701,155 @@ link:focus,
   }
 }
 
-/*# sourceMappingURL=maps/style.css.map */
+/*# sourceMappingURL=style.css.map */
+
+/* =================== RESPONSIVE MOBILE =================== */
+@media (max-width: 767.98px) {
+  /* Ajustes específicos para la sección Sobre ISNS */
+  .section .row.align-items-center {
+    flex-direction: column;
+    text-align: center;
+    margin: 0 !important;
+    padding: 0 10px !important;
+  }
+  
+  .section .row.align-items-center .col-md-6 {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  /* Reset de márgenes para la sección */
+  .section {
+    margin: 0 !important;
+    padding: 10px 0 !important;
+  }
+  
+  /* Contenedor principal */
+  .container {
+    padding: 0 10px !important;
+    max-width: 100% !important;
+  }
+  
+  .section .row.align-items-center .order-1 {
+    order: 2 !important;
+  }
+  
+  .section .row.align-items-center .order-2 {
+    order: 1 !important;
+  }
+  
+  /* Estilos para el texto en móvil */
+  .section h2.section-title {
+    text-align: center !important;
+    margin: 0.5rem 0 1rem !important;
+    font-size: 1.8rem !important;
+    padding: 0 5px !important;
+  }
+  
+  .section p {
+    text-align: center !important;
+    padding: 0 !important;
+    margin: 0.3rem 5px 1rem !important;
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+  }
+  
+  /* Estilos para la imagen en móvil */
+  .section .img-fluid {
+    margin: 0.5rem auto 1rem !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    height: auto !important;
+    display: block;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* Reducir el padding de la sección */
+  .section {
+    padding: 1.5rem 0 !important;
+  }
+  
+  .bg-white {
+    padding: 1.5rem 0.5rem !important;
+  }
+  
+  /* Ajuste para el botón en móvil */
+  .section .mt-4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem !important;
+  }
+  /* Ajustes para el navbar fijo */
+  .fixed-top {
+    position: relative !important;
+  }
+  
+  /* Ajustes para las imágenes */
+  .img-fluid {
+    max-width: 85% !important;
+    height: auto !important;
+    margin: 0 auto !important;
+    display: block !important;
+  }
+  
+  /* Mejora en el espaciado de secciones */
+  .section {
+    padding: 2rem 0 !important;
+  }
+  
+  /* Ajuste para el orden de las columnas en móvil */
+  .order-md-1, 
+  .order-md-2 {
+    order: 0 !important;
+  }
+  
+  /* Mejora en el espaciado del texto */
+  .col-md-6 {
+    padding: 0 15px;
+  }
+  
+  /* Ajuste para el botón de menú móvil */
+  .navbar-toggler {
+    margin-right: 15px;
+  }
+  
+  /* Mejora en los márgenes de las tarjetas */
+  .card {
+    margin-bottom: 20px !important;
+  }
+  
+  /* Ajuste para el texto en móviles */
+  body, p {
+    font-size: 15px !important;
+    line-height: 1.6 !important;
+  }
+  
+  /* Ajuste para los títulos en móviles */
+  h1, .h1 { font-size: 32px !important; }
+  h2, .h2 { font-size: 28px !important; }
+  h3, .h3 { font-size: 24px !important; }
+  
+  /* Mejora en el espaciado de los botones */
+  .btn {
+    padding: 0.375rem 1rem !important;
+    font-size: 0.9rem !important;
+  }
+  
+  /* Ajuste para el hero */
+  .hero-section {
+    padding: 100px 0 60px !important;
+  }
+  
+  /* Ajuste para el footer */
+  .footer {
+    text-align: center;
+  }
+  
+  .footer .social-links a {
+    margin: 0 5px 10px;
+  }
+}
