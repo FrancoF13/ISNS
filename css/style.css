@@ -21,12 +21,12 @@ body {
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
-  color: #5c5c77;
+  color: #333333; /* Gris oscuro */
 }
 
 p, .paragraph {
   font-weight: 400;
-  color: #5c5c77;
+  color: #333333; /* Gris oscuro */
   font-size: 17px;
   line-height: 2.1;
   font-family: "Poppins", sans-serif;
@@ -413,7 +413,7 @@ a h4:hover {
 }
 
 .text-color {
-  color: #5c5c77;
+  color: #333333; /* Gris oscuro */
 }
 
 .text-light {
@@ -1010,33 +1010,43 @@ link:focus,
 
 /* banner feature */
 .feature-icon {
-  font-size: 44px; /* Reducido de 48px */
+  font-size: 44px; 
   color: #ffbc3b;
   display: inline-block;
-  margin-bottom: 3px; /* Reducido de 5px */
+  margin-bottom: 3px; 
 }
 
 .feature-blocks {
-  margin-top: 30px; /* Reducido de 40px */
-  padding: 50px 40px; /* Reducido el padding */
+  margin-top: 30px; 
+  padding: 50px 50px; 
 }
 
 /* Ajustes específicos para la imagen del banner-feature */
+.bg-gray .row.no-gutters {
+  display: flex;
+  align-items: stretch; /* Hace que ambos contenedores tengan la misma altura */
+}
+
 .bg-gray .row.no-gutters > .col-xl-4 {
   display: flex;
   align-items: center; /* Centrar verticalmente */
-  justify-content: center; /* Centrar horizontalmente */
-  min-height: 400px; /* Altura mínima para asegurar espacio */
+  justify-content: flex-start; /* Alinear a la izquierda */
   padding: 20px; /* Espaciado alrededor de la imagen */
+  padding-left: 0; /* Sin padding izquierdo para pegar al borde */
+}
+
+.bg-gray .row.no-gutters > .col-xl-8 {
+  display: flex;
+  align-items: stretch;
 }
 
 .bg-gray .img-fluid[alt="banner-feature"] {
-  max-height: 100%;
+  width: auto !important; /* Evita que se alargue */
+  height: 100%; /* Toma la altura del contenedor */
   max-width: 100%;
-  width: auto;
-  height: auto;
-  object-fit: contain; /* Asegura que la imagen se muestre completa */
-  margin: 0 auto; /* Centrar la imagen */
+  object-fit: contain; /* Mantiene las proporciones sin alargarse */
+  object-position: left;
+  margin: 0; /* Sin margen para pegar al lado izquierdo */
 }
 
 /* Ajustes para pantallas medianas */
@@ -1075,7 +1085,11 @@ link:focus,
   }
   
   .bg-gray .img-fluid[alt="banner-feature"] {
+    width: auto !important; /* Evita que se alargue */
+    height: auto;
     max-width: 90%; /* Un poco más de margen en móviles */
+    max-height: 100%;
+    object-fit: contain;
     margin: 0 auto;
     display: block;
   }
@@ -1275,7 +1289,7 @@ link:focus,
 }
 
 .bg-footer {
-  background-color: #182b45;
+  background-color: #b31322 !important; /* Rojo */
 }
 
 .logo-footer {
@@ -1286,9 +1300,141 @@ link:focus,
 .footer {
   border-color: #494a43 !important;
   padding-top: 60px;
+  color: #333333 !important; /* Gris oscuro por defecto */
+}
+
+/* Títulos del footer en blanco */
+.footer h1,
+.footer h2,
+.footer h3,
+.footer h4,
+.footer h5,
+.footer h6,
+.footer .h1,
+.footer .h2,
+.footer .h3,
+.footer .h4,
+.footer .h5,
+.footer .h6,
+.footer .text-white {
+  color: #ffffff !important;
+}
+
+/* Texto gris oscuro en el footer (excepto títulos) */
+.footer li,
+.footer p,
+.footer a,
+.footer .text-color,
+.footer span {
+  color: #333333 !important; /* Gris oscuro */
+}
+
+.footer a:hover {
+  color: #ffbc3b !important; /* Amarillo en hover para mejor contraste */
+}
+
+/* Copyright también en gris oscuro */
+.copyright {
+  color: #333333 !important; /* Gris oscuro */
+}
+
+.copyright p {
+  color: #333333 !important; /* Gris oscuro */
 }
 
 /* /footer */
+
+/* Estilos para la sección About Us - Información a la izquierda, imagen a la derecha */
+.section .row.align-items-center {
+  display: flex !important;
+  flex-wrap: nowrap !important; /* Evita que se apilen en desktop */
+  align-items: stretch !important; /* Estirar ambas columnas a la misma altura */
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  overflow: visible !important; /* Permitir que la imagen crezca hacia la derecha */
+}
+
+.section .container {
+  overflow: visible !important; /* Permitir overflow en el contenedor */
+  padding-left: 0 !important; /* Eliminar padding izquierdo que impida mover el texto */
+  padding-right: 0 !important;
+}
+
+/* Columna de información - izquierda */
+.section .row.align-items-center .col-md-6.order-2.order-md-1 {
+  flex: 0 0 50% !important;
+  max-width: 50% !important;
+  width: 50% !important;
+  padding-right: 50px !important; /* Espacio a la derecha para la imagen */
+  padding-left: 0 !important; /* Sin padding izquierdo */
+  margin-left: -150px !important; /* Mover aún más a la izquierda */
+  margin-right: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start !important; /* Botón como antes */
+}
+
+/* Botón pequeño en la sección About Us */
+.section .row.align-items-center .col-md-6.order-2.order-md-1 .btn {
+  padding: 10px 25px !important; /* Botón más pequeño */
+  font-size: 14px !important;
+}
+
+/* Columna de imagen - derecha */
+.section .row.align-items-center .col-md-6.order-1.order-md-2 {
+  flex: 0 0 50% !important;
+  max-width: 50% !important;
+  width: 50% !important;
+  padding-left: 30px !important;
+  padding-right: 0 !important; /* Sin padding derecho para que crezca */
+  margin: 0 !important;
+  margin-bottom: 0 !important;
+  overflow: visible !important; /* Permitir que la imagen se salga del contenedor */
+  display: flex;
+  align-items: stretch !important; /* Estirar la imagen a la altura del contenedor */
+  justify-content: flex-start; /* Alinear a la izquierda del contenedor */
+}
+
+/* Quitar márgenes que puedan interferir */
+.section .row.align-items-center .col-md-6.mb-4,
+.section .row.align-items-center .col-md-6.mb-md-0 {
+  margin-bottom: 0 !important;
+}
+
+/* Hacer la imagen con la misma altura que el contenido (título hasta botón) */
+.section .row.align-items-center .col-md-6.order-1.order-md-2 img {
+  width: auto !important;
+  height: 100% !important; /* Misma altura que el contenedor (que coincide con el contenido de texto) */
+  display: block;
+  max-width: none !important; /* Permitir que exceda el contenedor */
+  max-height: 100% !important;
+  object-fit: contain; /* Mantener proporciones */
+  object-position: left center; /* Alinear a la izquierda */
+}
+
+/* Ajustes para tablets y móviles */
+@media (max-width: 991px) {
+  .section .row.align-items-center {
+    flex-wrap: wrap !important; /* Permitir apilado en móviles */
+  }
+  
+  .section .row.align-items-center .col-md-6 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  
+  /* En móviles, la imagen vuelve a su tamaño normal */
+  .section .row.align-items-center .col-md-6.order-1.order-md-2 img {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+
 .filter-controls li {
   cursor: pointer;
   transition: .1s ease;
@@ -1307,7 +1453,14 @@ link:focus,
   background: #fff;
   border-radius: 10px !important;
   padding: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  box-shadow: none !important;
+}
+
+/* Quitar recuadro blanco del logo en el footer */
+.footer .logo-blanco-redondeado {
+  background: transparent !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
 }
 
 /* Estilos del Carrusel */
