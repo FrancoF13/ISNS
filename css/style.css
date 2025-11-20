@@ -1333,13 +1333,50 @@ link:focus,
   color: #ffbc3b !important; /* Amarillo en hover para mejor contraste */
 }
 
-/* Copyright también en gris oscuro */
-.copyright {
-  color: #333333 !important; /* Gris oscuro */
+/* Copyright en negro */
+.copyright,
+.copyright p,
+.copyright p *:not(a),
+.copyright .text-center,
+.copyright .text-center p {
+  color: #000000 !important;
 }
 
-.copyright p {
-  color: #333333 !important; /* Gris oscuro */
+/* Mantener el color del enlace normal */
+.copyright a {
+  color: inherit !important;
+}
+
+/* Efecto hover en enlaces del copyright */
+.copyright a:hover {
+  color: #ffbc3b !important;
+}
+
+/* Footer - Texto negro excepto títulos */
+.footer,
+.footer p,
+.footer a:not(:hover),
+.footer li,
+.footer span,
+.footer .text-color,
+.footer .contact-info a,
+.footer .contact-info i,
+.footer .social-links a:not(:hover) {
+    color: #000000 !important;
+}
+
+/* Mantener títulos en blanco */
+.footer .widget-title,
+.footer h1, .footer h2, .footer h3, 
+.footer h4, .footer h5, .footer h6,
+.footer .h1, .footer .h2, .footer .h3, 
+.footer .h4, .footer .h5, .footer .h6 {
+    color: #ffffff !important;
+}
+
+/* Efecto hover en enlaces */
+.footer a:hover {
+    color: #ffbc3b !important;
 }
 
 /* /footer */
@@ -1541,7 +1578,7 @@ link:focus,
 }
 
 .carousel-inner .card .card-body {
-  padding: 1.4rem;
+  padding: 1.4rem 1.4rem 0.6rem 1.4rem;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -1697,7 +1734,7 @@ link:focus,
     padding: 0;
   }
   .carousel-inner .card .card-body {
-    padding: 1.25rem;
+    padding: 1.25rem 1.25rem 0.5rem 1.25rem; /* Padding inferior reducido a 0.5rem para móviles */
   }
 }
 
