@@ -2,503 +2,571 @@
 
 /* Estilos para la sección 'Sobre ISNS' - Ajustes móviles */
 #about {
-  padding: 20px 5px !important;
-  margin: 0 !important;
-  width: 100% !important;
-  max-width: 100% !important;
-  overflow: visible !important;
+    padding: 20px 5px !important;
+    margin: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow: visible !important;
 }
 
 #about .container {
-  padding: 0 5px !important;
-  margin: 0 !important;
-  max-width: 100% !important;
-  width: 100% !important;
+    padding: 0 5px !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
 }
 
 #about .row {
-  margin: 0 !important;
-  padding: 0 !important;
-  width: 100% !important;
-  max-width: 100% !important;
-  display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    display: block !important;
 }
 
 #about .col-md-6 {
-  width: 100% !important;
-  max-width: 100% !important;
-  padding: 0 5px !important;
-  margin: 0 0 15px 0 !important;
-  float: none !important;
-  clear: both !important;
-  position: relative !important;
-  left: 0 !important;
-  right: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 5px !important;
+    margin: 0 0 15px 0 !important;
+    float: none !important;
+    clear: both !important;
+    position: relative !important;
+    left: 0 !important;
+    right: 0 !important;
 }
 
 #about img {
-  max-width: 100% !important;
-  height: auto !important;
-  margin: 0 auto 15px auto !important;
-  display: block !important;
-  padding: 0 5px !important;
+    max-width: 100% !important;
+    height: auto !important;
+    margin: 0 auto 15px auto !important;
+    display: block !important;
+    padding: 0 5px !important;
 }
 
 #about h2.section-title {
-  font-size: 1.5rem !important;
-  text-align: center !important;
-  margin: 10px 0 15px 0 !important;
-  padding: 0 5px !important;
-  width: 100% !important;
-  float: none !important;
-  clear: both !important;
+    font-size: 1.5rem !important;
+    text-align: center !important;
+    margin: 10px 0 15px 0 !important;
+    padding: 0 5px !important;
+    width: 100% !important;
+    float: none !important;
+    clear: both !important;
 }
 
 #about p {
-  font-size: 0.95rem !important;
-  line-height: 1.5 !important;
-  text-align: left !important;
-  margin: 0 0 15px 0 !important;
-  padding: 0 5px !important;
-  width: 100% !important;
-  float: none !important;
-  clear: both !important;
-  display: block !important;
-  word-wrap: break-word !important;
-  overflow-wrap: break-word !important;
+    font-size: 0.95rem !important;
+    line-height: 1.5 !important;
+    text-align: left !important;
+    margin: 0 0 15px 0 !important;
+    padding: 0 5px !important;
+    width: 100% !important;
+    float: none !important;
+    clear: both !important;
+    display: block !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
 }
 
 #about .btn {
-  display: block !important;
-  margin: 20px auto !important;
-  max-width: 200px !important;
-  text-align: center !important;
-  padding: 8px 16px !important;
-  font-size: 0.95rem !important;
-  float: none !important;
-  clear: both !important;
-  position: relative !important;
-  left: 50% !important;
-  transform: translateX(-50%) !important;
+    display: block !important;
+    margin: 20px auto !important;
+    max-width: 200px !important;
+    text-align: center !important;
+    padding: 8px 16px !important;
+    font-size: 0.95rem !important;
+    float: none !important;
+    clear: both !important;
+    position: relative !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
 }
 
 /* Reset de cualquier estilo que pueda estar causando problemas */
 #about * {
-  box-sizing: border-box !important;
-  max-width: 100% !important;
-}
-
-/* Estilos para centrar el apartado de carreras */
-/* Ajuste de imágenes en tarjetas */
-.card-img-top {
-  height: 300px !important;
-  width: auto !important;
-  max-width: 100% !important;
-  margin: 10px auto !important;
-  display: block !important;
-  object-fit: contain !important;
-  padding: 5px !important;
-}
-
-/* Ajustes para pantallas pequeñas */
-@media (max-width: 768px) {
-  .card-img-top {
-    height: 270px !important;
-    max-width: 100% !important;
-  }
-}
-
-@media (max-width: 576px) {
-  .card-img-top {
-    height: 240px !important;
-    max-width: 100% !important;
-  }
-}
-
-@media (max-width: 400px) {
-  .card-img-top {
-    height: 210px !important;
-    max-width: 80% !important;
-  }
-}
-
-.carousel-container {
-  max-width: 100% !important;
-  margin: 0 auto !important;
-  padding: 0 10px !important;
+    padding: 0 10px !important;
 }
 
 #coursesCarousel {
-  margin: 0 auto !important;
-  max-width: 500px !important;
+    margin: 0 auto !important;
+    max-width: 500px !important;
 }
 
 .carousel-inner {
-  text-align: center !important;
+    text-align: center !important;
 }
 
 .carousel-item .card {
-  margin: 0 auto !important;
-  max-width: 100% !important;
-  text-align: center !important;
-  display: inline-block !important;
-  float: none !important;
+    margin: 0 auto !important;
+    max-width: 100% !important;
+    text-align: center !important;
+    display: inline-block !important;
+    float: none !important;
 }
 
 .carousel-item .card-body {
-  text-align: center !important;
-  padding: 15px !important;
+    text-align: center !important;
+    padding: 15px !important;
 }
 
 .carousel-item .card-title,
 .carousel-item .card-text,
 .carousel-item .card-text p {
-  text-align: center !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 .carousel-item .btn {
-  display: block !important;
-  margin: 10px auto 0 !important;
+    display: block !important;
+    margin: 10px auto 0 !important;
 }
 
 /* Controles del carrusel */
 .carousel-control-prev,
 .carousel-control-next {
-  width: 30px !important;
-  height: 30px !important;
-  background: rgba(0,0,0,0.5) !important;
-  border-radius: 50% !important;
-  top: 50% !important;
-  transform: translateY(-50%) !important;
-  opacity: 1 !important;
+    width: 30px !important;
+    height: 30px !important;
+    background: rgba(0, 0, 0, 0.5) !important;
+    border-radius: 50% !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    opacity: 1 !important;
 }
 
 .carousel-control-prev {
-  left: 5px !important;
+    left: 5px !important;
 }
 
 .carousel-control-next {
-  right: 5px !important;
+    right: 5px !important;
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  width: 15px !important;
-  height: 15px !important;
+    width: 15px !important;
+    height: 15px !important;
 }
 
 /* Estilos para el botón de reproducción del video */
 .success-video {
-  min-height: 200px !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  margin-bottom: 20px !important;
+    min-height: 200px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-bottom: 20px !important;
 }
 
 .play-btn {
-  width: 60px !important;
-  height: 60px !important;
-  font-size: 24px !important;
-  line-height: 60px !important;
-  background: #4e8cff !important;
-  border-radius: 50% !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  color: white !important;
-  text-decoration: none !important;
-  transition: all 0.3s ease !important;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2) !important;
+    width: 60px !important;
+    height: 60px !important;
+    font-size: 24px !important;
+    line-height: 60px !important;
+    background: #4e8cff !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: white !important;
+    text-decoration: none !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2) !important;
 }
 
 .play-btn i {
-  margin-left: 3px !important;
+    margin-left: 3px !important;
 }
 
 .play-btn:hover {
-  transform: scale(1.1) !important;
-  background: #3a7bf0 !important;
+    transform: scale(1.1) !important;
+    background: #3a7bf0 !important;
 }
 
 /* Ajustes para pantallas pequeñas */
 @media (max-width: 576px) {
-  .play-btn {
-    width: 50px !important;
-    height: 50px !important;
-    font-size: 20px !important;
-    line-height: 50px !important;
-  }
-  
-  .success-video {
-    min-height: 150px !important;
-  }
+    .play-btn {
+        width: 50px !important;
+        height: 50px !important;
+        font-size: 20px !important;
+        line-height: 50px !important;
+    }
+
+    .success-video {
+        min-height: 150px !important;
+    }
 }
 
 /* Estilos para la sección ¿Qué es UCES? */
 .section.pt-0 .container {
-  max-width: 100% !important;
-  padding: 0 10px !important;
+    max-width: 100% !important;
+    padding: 0 10px !important;
 }
 
 .section.pt-0 .row {
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  margin: 0 auto !important;
-  max-width: 800px !important;
-  padding: 0 5px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    margin: 0 auto !important;
+    max-width: 800px !important;
+    padding: 0 5px !important;
 }
 
 .section.pt-0 .col-lg-6 {
-  width: 100% !important;
-  max-width: 100% !important;
-  padding: 0 5px !important;
-  margin-bottom: 15px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 5px !important;
+    margin-bottom: 15px !important;
 }
 
 .section.pt-0 .bg-white {
-  padding: 30px 25px !important;
-  text-align: center !important;
-  border-radius: 8px !important;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important;
-  margin: 0 auto !important;
-  max-width: 95% !important;
+    padding: 30px 25px !important;
+    text-align: center !important;
+    border-radius: 8px !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) !important;
+    margin: 0 auto !important;
+    max-width: 95% !important;
 }
 
 .section.pt-0 .section-title {
-  text-align: center !important;
-  margin: 10px 0 25px 0 !important;
-  font-size: 1.8rem !important;
-  color: #2c3e50 !important;
-  padding: 0 10px !important;
+    text-align: center !important;
+    margin: 10px 0 25px 0 !important;
+    font-size: 1.8rem !important;
+    color: #2c3e50 !important;
+    padding: 0 10px !important;
 }
 
 .section.pt-0 p {
-  text-align: center !important;
-  margin: 0 auto 20px auto !important;
-  font-size: 1rem !important;
-  line-height: 1.7 !important;
-  max-width: 90% !important;
-  padding: 0 5px !important;
+    text-align: center !important;
+    margin: 0 auto 20px auto !important;
+    font-size: 1rem !important;
+    line-height: 1.7 !important;
+    max-width: 90% !important;
+    padding: 0 5px !important;
 }
 
 .section.pt-0 .btn {
-  margin: 10px auto 0 auto !important;
-  display: block !important;
-  max-width: 200px !important;
-  text-align: center !important;
-  padding: 8px 20px !important;
+    margin: 10px auto 0 auto !important;
+    display: block !important;
+}
+
+#about p {
+    font-size: 0.95rem !important;
+    line-height: 1.5 !important;
+    text-align: left !important;
+    margin: 0 0 15px 0 !important;
+    padding: 0 5px !important;
+    width: 100% !important;
+    float: none !important;
+    clear: both !important;
+    display: block !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+}
+
+#about .btn {
+    display: block !important;
+    margin: 20px auto !important;
+    max-width: 200px !important;
+    text-align: center !important;
+    padding: 8px 16px !important;
+    font-size: 0.95rem !important;
+    float: none !important;
+    clear: both !important;
+    position: relative !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+}
+
+/* Reset de cualquier estilo que pueda estar causando problemas */
+#about * {
+    padding: 0 10px !important;
+}
+
+#coursesCarousel {
+    margin: 0 auto !important;
+    max-width: 500px !important;
+}
+
+.carousel-inner {
+    text-align: center !important;
+}
+
+.carousel-item .card {
+    margin: 0 auto !important;
+    max-width: 100% !important;
+    text-align: center !important;
+    display: inline-block !important;
+    float: none !important;
+}
+
+.carousel-item .card-body {
+    text-align: center !important;
+    padding: 15px !important;
+}
+
+.carousel-item .card-title,
+.carousel-item .card-text,
+.carousel-item .card-text p {
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.carousel-item .btn {
+    display: block !important;
+    margin: 10px auto 0 !important;
+}
+
+/* Controles del carrusel */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 30px !important;
+    height: 30px !important;
+    background: rgba(0, 0, 0, 0.5) !important;
+    border-radius: 50% !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    opacity: 1 !important;
+}
+
+.carousel-control-prev {
+    left: 5px !important;
+}
+
+.carousel-control-next {
+    right: 5px !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 15px !important;
+    height: 15px !important;
+}
+
+/* Estilos para el botón de reproducción del video */
+.success-video {
+    min-height: 200px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-bottom: 20px !important;
+}
+
+.play-btn {
+    width: 60px !important;
+    height: 60px !important;
+    font-size: 24px !important;
+    line-height: 60px !important;
+    background: #4e8cff !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: white !important;
+    text-decoration: none !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2) !important;
+}
+
+.play-btn i {
+    margin-left: 3px !important;
+}
+
+.play-btn:hover {
+    transform: scale(1.1) !important;
+    background: #3a7bf0 !important;
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 576px) {
+    .play-btn {
+        width: 50px !important;
+        height: 50px !important;
+        font-size: 20px !important;
+        line-height: 50px !important;
+    }
+
+    .success-video {
+        min-height: 150px !important;
+    }
+}
+
+/* Estilos para la sección ¿Qué es UCES? */
+.section.pt-0 .container {
+    max-width: 100% !important;
+    padding: 0 10px !important;
+}
+
+.section.pt-0 .row {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    margin: 0 auto !important;
+    max-width: 800px !important;
+    padding: 0 5px !important;
+}
+
+.section.pt-0 .col-lg-6 {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 5px !important;
+    margin-bottom: 15px !important;
+}
+
+.section.pt-0 .bg-white {
+    padding: 30px 25px !important;
+    text-align: center !important;
+    border-radius: 8px !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) !important;
+    margin: 0 auto !important;
+    max-width: 95% !important;
+}
+
+.section.pt-0 .section-title {
+    text-align: center !important;
+    margin: 10px 0 25px 0 !important;
+    font-size: 1.8rem !important;
+    color: #2c3e50 !important;
+    padding: 0 10px !important;
+}
+
+.section.pt-0 p {
+    text-align: center !important;
+    margin: 0 auto 20px auto !important;
+    font-size: 1rem !important;
+    line-height: 1.7 !important;
+    max-width: 90% !important;
+    padding: 0 5px !important;
+}
+
+.section.pt-0 .btn {
+    margin: 10px auto 0 auto !important;
+    display: block !important;
+    max-width: 200px !important;
+    text-align: center !important;
+    padding: 8px 20px !important;
 }
 
 /* Ajustes para pantallas pequeñas */
 @media (max-width: 768px) {
-  .section.pt-0 .bg-white {
-    padding: 25px 15px !important;
-    max-width: 100% !important;
-  }
-  
-  .section.pt-0 p {
-    max-width: 95% !important;
-    font-size: 0.95rem !important;
-    line-height: 1.6 !important;
-  }
+    .section.pt-0 .bg-white {
+        padding: 25px 15px !important;
+        max-width: 100% !important;
+    }
+
+    .section.pt-0 p {
+        max-width: 95% !important;
+        font-size: 0.95rem !important;
+        line-height: 1.6 !important;
+    }
+
+    /* Hero Section Mobile Adjustments - IMPROVED VISIBILITY */
+    .hero-section {
+        min-height: 550px !important;
+        /* Aumentar altura para ver mejor la imagen */
+        background-position: 75% center !important;
+        /* Desplazar a la izquierda para centrar el cubo */
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        padding-top: 80px !important;
+        /* Ajustar padding superior */
+        padding-bottom: 80px !important;
+        margin-top: 90px !important;
+        /* Empujar hacia abajo para que no quede tapado por el navbar */
+    }
+
+    /* Reducir opacidad del overlay en móvil para que se vea más la imagen */
+    .hero-section.overlay::before {
+        opacity: 0.3 !important;
+    }
+
+    /* Mobile Inscripciones Section */
+    .d-md-none.bg-gray {
+        background-color: #f8f8f8 !important;
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+        margin-top: -20px;
+        /* Unir visualmente con el hero si es necesario */
+        position: relative;
+        z-index: 2;
+    }
+
+    .d-md-none.bg-gray h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+
+    .d-md-none.bg-gray .btn {
+        background-color: #b31322;
+        color: #fff;
+        font-weight: 600;
+        padding: 12px;
+    }
+
+    .card-img-top {
+        height: 270px !important;
+        max-width: 100% !important;
+    }
 }
 
 @media (max-width: 576px) {
-  .section.pt-0 .bg-white {
-    padding: 20px 10px !important;
-  }
-  
-  .section.pt-0 .section-title {
-    font-size: 1.5rem !important;
-    margin-bottom: 20px !important;
-  }
-  
-  .section.pt-0 p {
-    font-size: 0.9rem !important;
-    line-height: 1.5 !important;
-    max-width: 100% !important;
-    padding: 0 10px !important;
-  }
-  
-  .section.pt-0 .btn {
-    padding: 6px 15px !important;
-    font-size: 0.9rem !important;
-  }
+    .section.pt-0 .bg-white {
+        padding: 20px 10px !important;
+    }
+
+    .section.pt-0 .section-title {
+        font-size: 1.5rem !important;
+        margin-bottom: 20px !important;
+    }
+
+    .section.pt-0 p {
+        font-size: 0.9rem !important;
+        line-height: 1.5 !important;
+        max-width: 100% !important;
+        padding: 0 10px !important;
+    }
+
+    .section.pt-0 .btn {
+        padding: 6px 15px !important;
+        font-size: 0.9rem !important;
+    }
+
+    .card-img-top {
+        height: 240px !important;
+        max-width: 100% !important;
+    }
+
+    .hero-section {
+        min-height: 400px !important;
+        /* Altura fija considerable para móviles pequeños */
+    }
+}
+
+@media (max-width: 400px) {
+    .card-img-top {
+        height: 210px !important;
+        max-width: 80% !important;
+    }
 }
 
 /* Ajustes específicos para el banner */
 .bg-gray .row.no-gutters {
-  flex-direction: column;
-  overflow: hidden; /* Para que el contenido no se desborde */
+    flex-direction: column;
+    overflow: hidden;
+    /* Para que el contenido no se desborde */
 }
 
 .bg-gray .img-fluid[alt="banner-feature"] {
-  width: 55% !important; /* Reducido el ancho al 55% */
-  max-width: 55%;
-  height: auto;
-  margin: 0;
-  padding: 0;
-  object-fit: contain;
-  object-position: left center;
-  transform: translateX(-60%); /* Ajustado el desplazamiento a la izquierda */
-  margin-bottom: -10%; /* Reducido el margen inferior negativo */
-}
-
-/* Breakpoint para móviles (hasta 768px) */
-@media (max-width: 768px) {
-  /* Ajustes generales */
-  body {
-    font-size: 14px;
-    line-height: 1.5;
-  }
-
-  /* Ajustes de encabezado */
-  .navbar-brand img {
-    max-height: 40px;
-  }
-
-  /* Ajustes de secciones */
-  .section {
-    padding: 30px 0;
-  }
-
-  .section-title {
-    font-size: 1.8rem;
-    margin-bottom: 20px;
-  }
-
-  /* Ajustes de tarjetas de carreras */
-  .carousel-item .card {
-    margin: 0 10px;
-  }
-
-  .card {
-    margin-bottom: 20px;
-  }
-
-  /* Ajustes de botones */
-  .btn {
-    padding: 8px 16px;
-    font-size: 14px;
-  }
-
-  /* Ajustes de formularios */
-  .form-control {
-    padding: 8px 12px;
-    font-size: 14px;
-  }
-
-  /* Ajustes de márgenes y paddings */
-  .py-5 {
-    padding-top: 2rem !important;
-    padding-bottom: 2rem !important;
-  }
-
-  .my-5 {
-    margin-top: 2rem !important;
-    margin-bottom: 2rem !important;
-  }
-
-  /* Ajustes de imágenes */
-  img {
-    max-width: 100%;
+    width: 55% !important;
+    /* Reducido el ancho al 55% */
+    max-width: 55%;
     height: auto;
-  }
-
-  /* Ajustes del carrusel */
-  .carousel-control-prev,
-  .carousel-control-next {
-    width: 40px;
-    height: 40px;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-
-  /* Ajustes de la barra de navegación */
-  .navbar-collapse {
-    background: #fff;
-    padding: 15px;
-    margin-top: 10px;
-    border-radius: 4px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  }
-
-  .navbar-nav .nav-link {
-    padding: 10px 0;
-    border-bottom: 1px solid #eee;
-  }
-
-  .navbar-nav .nav-item:last-child .nav-link {
-    border-bottom: none;
-  }
-
-  /* Ajustes de la sección de contacto */
-  .contact-info {
-    margin-bottom: 20px;
-  }
-
-  /* Ajustes del footer */
-  .footer {
-    text-align: center;
-  }
-
-  .footer .social-links {
-    justify-content: center;
-    margin-top: 15px;
-  }
-
-  .footer .border-top {
-    margin-top: 20px;
-    padding-top: 20px;
-  }
-}
-
-/* Breakpoint para tablets pequeñas (hasta 576px) */
-@media (max-width: 576px) {
-  .section-title {
-    font-size: 1.5rem;
-  }
-
-  .h1, h1 {
-    font-size: 2rem;
-  }
-
-  .h2, h2 {
-    font-size: 1.75rem;
-  }
-
-  .h3, h3 {
-    font-size: 1.5rem;
-  }
-
-  /* Ajustes adicionales para móviles pequeños */
-  .container {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
-  /* Ajustes de botones para móviles pequeños */
-  .btn {
-    display: block;
-    width: 100%;
-    margin-bottom: 10px;
-  }
-
-  /* Ajustes de formularios para móviles pequeños */
-  .form-group {
-    margin-bottom: 15px;
-  }
-
-  /* Ajustes de márgenes para móviles pequeños */
-  .mt-5, .my-5 {
-    margin-top: 1.5rem !important;
-  }
-
-  .mb-5, .my-5 {
-    margin-bottom: 1.5rem !important;
-  }
+    margin: 0;
+    padding: 0;
+    object-fit: contain;
+    object-position: left center;
+    transform: translateX(-60%);
+    /* Ajustado el desplazamiento a la izquierda */
+    margin-bottom: -10%;
+    /* Reducido el margen inferior negativo */
 }
