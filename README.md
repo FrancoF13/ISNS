@@ -40,13 +40,6 @@ public_html - ISNS/
 └── *.html
 ```
 
-## 🔧 Instalación
-
-1. Clona este repositorio:
-```bash
-git clone https://github.com/tu-usuario/isns-website.git
-```
-
 2. Abre el archivo `index.html` en tu navegador preferido.
 
 ## 📱 Características
