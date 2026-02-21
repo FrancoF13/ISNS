@@ -57,7 +57,7 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 ## 📞 Contacto
 
-- Dirección: Buenos Aires 662, Corrientes Capital
+- Dirección: Cordoba 460, Corrientes Capital
 - Teléfono: +54 3795 11-0674
 - Email: infoinstitutonuevosiglo@gmail.com
 - WhatsApp: +54 3795 11-0674 

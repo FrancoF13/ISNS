@@ -3,7 +3,9 @@
 
 
 <!-- Mirrored from institutonuevosiglo.com.ar/carreras.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 22 May 2024 13:20:15 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
 <head>
   <meta charset="utf-8">
   <title>Carreras ISNS</title>
@@ -11,7 +13,7 @@
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  
+
   <!-- ** Plugins Needed for the Project ** -->
   <!-- Bootstrap -->
   <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css?v=1.0.2">
@@ -28,7 +30,7 @@
 
   <!-- Main Stylesheet -->
   <link href="css/style.css?v=1.0.2" rel="stylesheet">
-  
+
   <!-- Estilos personalizados para las imágenes de carreras -->
   <style>
     /* Estilos para el contenedor de las tarjetas */
@@ -38,29 +40,30 @@
       margin-right: -8px;
       margin-left: -8px;
     }
-    
+
     .col-lg-3 {
       padding-right: 8px;
       padding-left: 8px;
       margin-bottom: 16px;
     }
-    
+
     /* Estilos para las tarjetas */
     .card {
       height: 100%;
       margin: 0;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
-    
+
     /* Contenedor de imágenes cuadrado */
     .card-img-wrapper {
       position: relative;
       width: 100%;
-      padding-bottom: 100%; /* Hace que el contenedor sea cuadrado */
+      padding-bottom: 100%;
+      /* Hace que el contenedor sea cuadrado */
       overflow: hidden;
       background: #f8f9fa;
     }
-    
+
     .card-img-top {
       position: absolute;
       top: 50%;
@@ -72,7 +75,7 @@
       height: auto;
       object-fit: contain;
     }
-    
+
     /* Ajustes para el cuerpo de la tarjeta */
     .card-body {
       padding: 15px;
@@ -80,58 +83,58 @@
       flex-direction: column;
       flex-grow: 1;
     }
-    
+
     .card-title {
       font-size: 1rem;
       margin-bottom: 0.5rem;
       line-height: 1.3;
     }
-    
+
     .card-text {
       font-size: 0.85rem;
       margin-bottom: 1rem;
     }
-    
+
     /* Ajustes responsivos */
     @media (min-width: 768px) {
       .col-md-6 {
         flex: 0 0 50%;
         max-width: 50%;
       }
-      
+
       .card-img-wrapper {
         padding-bottom: 100%;
       }
     }
-    
+
     @media (min-width: 992px) {
       .col-lg-3 {
         flex: 0 0 25%;
         max-width: 25%;
       }
     }
-    
+
     /* Ajustes para móviles */
     @media (max-width: 767px) {
       .col-6 {
         flex: 0 0 50%;
         max-width: 50%;
       }
-      
+
       .card-img-wrapper {
         padding-bottom: 100%;
       }
-      
+
       .card-title {
         font-size: 0.9rem;
       }
-      
+
       .card-text {
         font-size: 0.8rem;
       }
     }
   </style>
-  
+
   <!--Favicon-->
   <link rel="shortcut icon" href="images/favicon.html" type="image/x-icon">
   <link rel="icon" href="images/favicon.html" type="image/x-icon">
@@ -140,250 +143,261 @@
 
 <body>
   <div id="header-container"></div>
-  
 
-<!-- Modal -->
-<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true">
+
+  <!-- Modal -->
+  <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content rounded-0 border-0 p-4">
-            <div class="modal-header border-0">
-                <h3>Registrarse</h3>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <div class="login">
-                    <form action="#" class="row">
-                        <div class="col-12">
-                            <input type="text" class="form-control mb-3" id="signupPhone" name="signupPhone" placeholder="Teléfono">
-                        </div>
-                        <div class="col-12">
-                            <input type="text" class="form-control mb-3" id="signupName" name="signupName" placeholder="Nombre">
-                        </div>
-                        <div class="col-12">
-                            <input type="email" class="form-control mb-3" id="signupEmail" name="signupEmail" placeholder="Email">
-                        </div>
-                        <div class="col-12">
-                            <input type="password" class="form-control mb-3" id="signupPassword" name="signupPassword" placeholder="Contraseña">
-                        </div>
-                        <div class="col-12">
-                            <button type="submit" class="btn btn-primary">Ingresar</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
+      <div class="modal-content rounded-0 border-0 p-4">
+        <div class="modal-header border-0">
+          <h3>Registrarse</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
         </div>
+        <div class="modal-body">
+          <div class="login">
+            <form action="#" class="row">
+              <div class="col-12">
+                <input type="text" class="form-control mb-3" id="signupPhone" name="signupPhone" placeholder="Teléfono">
+              </div>
+              <div class="col-12">
+                <input type="text" class="form-control mb-3" id="signupName" name="signupName" placeholder="Nombre">
+              </div>
+              <div class="col-12">
+                <input type="email" class="form-control mb-3" id="signupEmail" name="signupEmail" placeholder="Email">
+              </div>
+              <div class="col-12">
+                <input type="password" class="form-control mb-3" id="signupPassword" name="signupPassword"
+                  placeholder="Contraseña">
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Ingresar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
-</div>
-<!-- Modal -->
-<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content rounded-0 border-0 p-4">
-            <div class="modal-header border-0">
-                <h3>Login</h3>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
+      <div class="modal-content rounded-0 border-0 p-4">
+        <div class="modal-header border-0">
+          <h3>Login</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form action="#" class="row">
+            <div class="col-12">
+              <input type="text" class="form-control mb-3" id="loginPhone" name="loginPhone" placeholder="Teléfono">
             </div>
-            <div class="modal-body">
-                <form action="#" class="row">
-                    <div class="col-12">
-                        <input type="text" class="form-control mb-3" id="loginPhone" name="loginPhone" placeholder="Teléfono">
-                    </div>
-                    <div class="col-12">
-                        <input type="text" class="form-control mb-3" id="loginName" name="loginName" placeholder="Nombre">
-                    </div>
-                    <div class="col-12">
-                        <input type="password" class="form-control mb-3" id="loginPassword" name="loginPassword" placeholder="Contraseña">
-                    </div>
-                    <div class="col-12">
-                        <button type="submit" class="btn btn-primary">INGRESAR</button>
-                    </div>
-                </form>
+            <div class="col-12">
+              <input type="text" class="form-control mb-3" id="loginName" name="loginName" placeholder="Nombre">
             </div>
-        </div>
-    </div>
-</div>
-
-<!-- page title -->
-<section class="page-title-section overlay" data-background="images/backgrounds/page-title.jpg">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8">
-        <ul class="list-inline custom-breadcrumb">
-          <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="#">Carreras</a></li>
-          <li class="list-inline-item text-white h3 font-secondary "></li>
-        </ul>
-        <p class="text-lighten">En nuestro instituto vas a poder estudiar las siguientes carreras.</p>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- /page title -->
-
-<!-- courses -->
-<section class="section">
-  <div class="container">
-    <div class="row">
-      <!-- Tecnicatura en Pedagogía -->
-      <div class="col-lg-3 col-md-6 col-6 mb-4">
-        <div class="card h-100">
-          <div class="card-img-wrapper">
-            <img class="card-img-top" src="images/courses/Pedagogia.png" alt="Pedagogía">
-          </div>
-          <div class="card-body">
-            <ul class="list-inline mb-2">
-              <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>3 Años</li>
-              <li class="list-inline-item"><a class="text-color" href="#">Tecnicatura</a></li>
-            </ul>
-            <a href="carrerapedagogia.html">
-              <h4 class="card-title">Tecnicatura Superior en Pedagogía y Educación Social</h4>
-            </a>
-            <p class="card-text">Modalidad: Presencial y Semipresencial</p>
-            <a href="carrerapedagogia.html" class="btn btn-primary btn-sm mt-auto">Leer más</a>
-          </div>
-        </div>
-      </div>
-      <!-- Tecnicatura en Comunicación -->
-      <div class="col-lg-3 col-md-6 col-6 mb-4">
-        <div class="card h-100">
-          <div class="card-img-wrapper">
-            <img class="card-img-top" src="images/courses/course-3.png" alt="Comunicación">
-          </div>
-          <div class="card-body">
-            <ul class="list-inline mb-2">
-              <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>3 Años</li>
-              <li class="list-inline-item"><a class="text-color" href="#">Tecnicatura</a></li>
-            </ul>
-            <a href="comunicacion.html">
-              <h4 class="card-title">Tecnicatura Superior en Comunicación Gráfica y Audiovisual</h4>
-            </a>
-            <p class="card-text">Modalidad: Presencial</p>
-            <a href="comunicacion.html" class="btn btn-primary btn-sm mt-auto">Leer más</a>
-          </div>
-        </div>
-      </div>
-      <!-- Tecnicatura en Psicología Social -->
-      <div class="col-lg-3 col-md-6 col-6 mb-4">
-        <div class="card h-100">
-          <div class="card-img-wrapper">
-            <img class="card-img-top" src="images/courses/course-5.png" alt="Psicología Social">
-          </div>
-          <div class="card-body">
-            <ul class="list-inline mb-2">
-              <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>3 Años</li>
-              <li class="list-inline-item"><a class="text-color" href="#">Tecnicatura</a></li>
-            </ul>
-            <a href="carrerapsocial.html">
-              <h4 class="card-title">Tecnicatura Superior en Psicología Social</h4>
-            </a>
-            <p class="card-text">Modalidad: Presencial</p>
-            <a href="carrerapsocial.html" class="btn btn-primary btn-sm mt-auto">Leer más</a>
-          </div>
-        </div>
-      </div>
-      <!-- Tecnicatura en Diseño Gráfico -->
-      <div class="col-lg-3 col-md-6 col-6 mb-4">
-        <div class="card h-100">
-          <div class="card-img-wrapper">
-            <img class="card-img-top" src="images/courses/DiseñoGrafico.png" alt="Diseño Gráfico">
-          </div>
-          <div class="card-body">
-            <ul class="list-inline mb-2">
-              <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>3 Años</li>
-              <li class="list-inline-item"><a class="text-color" href="#">Tecnicatura</a></li>
-            </ul>
-            <a href="carreradiseno.html">
-              <h4 class="card-title">Tecnicatura Superior en Diseño Gráfico y Multimedia</h4>
-            </a>
-            <p class="card-text">Modalidad: Semipresencial</p>
-            <a href="carreradiseno.html" class="btn btn-primary btn-sm mt-auto">Leer más</a>
-          </div>
+            <div class="col-12">
+              <input type="password" class="form-control mb-3" id="loginPassword" name="loginPassword"
+                placeholder="Contraseña">
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">INGRESAR</button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
   </div>
-</section>
-<!-- /courses -->
 
-<!-- =================== FOOTER =================== -->
-<footer>
-  <div class="footer bg-footer section-sm border-bottom" style="padding: 40px 0;">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-3 col-md-6 col-sm-12 mb-3 mb-lg-0 text-center">
-          <!-- logo -->
-          <a class="logo-footer" href="index.html"><img class="img-fluid mb-2 logo-blanco-redondeado" src="images/logo-pie.png" alt="logo"></a>
-          <ul class="list-unstyled">
-            <li class="mb-1">Buenos Aires 662 - Corrientes Capital</li>
-            <li class="mb-1">+54 3795 11-0674</li>
-            <li class="mb-1"><a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRvwLqFbvCqDQDxNwZHwLSFLXsPdspllRVLJPMLzvTNLkkFrPcqGKgKCDqXdNMbcqmrktjV" class="text-color" style="text-decoration: none;" target="_blank" rel="noopener"><i class="ti-email mr-2"></i>infoinstitutonuevosiglo@gmail.com</a></li>
-          </ul>
-        </div>
-        <!-- company -->
-        <div class="col-lg-3 col-md-6 col-sm-12 mb-3 mb-md-0 text-center">
-          <h4 class="text-white mb-2">ISNS</h4>
-          <ul class="list-unstyled">
-            <li class="mb-1"><a class="text-color" href="nosotros.html" target="_blank">Nosotros</a></li>
-            <li class="mb-1"><a class="text-color" href="contacto.html" target="_blank">Contacto</a></li>
-            <li class="mb-1"><a class="text-color" href="carreras.html" target="_blank">Carreras</a></li>
-          </ul>
-        </div>
-        <!-- links -->
-        <div class="col-lg-3 col-md-6 col-sm-12 mb-3 mb-md-0 text-center">
-          <h4 class="text-white mb-2">Enlaces Rápidos</h4>
-          <ul class="list-unstyled">
-            <li class="mb-1"><a class="text-color" href="https://www.uces.edu.ar/educacion-distancia" target="_blank" rel="noopener">UCES Virtual</a></li>
-            <li class="mb-1"><a class="text-color" href="https://api.whatsapp.com/send?phone=5493795110674" target="_blank" rel="noopener">WhatsApp</a></li>
-          </ul>
-        </div>
-        <!-- social -->
-        <div class="col-lg-3 col-md-6 col-sm-12 mb-3 mb-md-0 text-center">
-          <h4 class="text-white mb-2">Síguenos</h4>
-          <ul class="list-unstyled">
-            <li class="mb-1"><a class="text-color" href="https://www.facebook.com/share/1ZWhtoCT53/" target="_blank" rel="noopener"><i class="ti-facebook mr-2"></i>Facebook</a></li>
-            <li class="mb-1"><a class="text-color" href="https://www.instagram.com/institutosuperiornuevosiglo/" target="_blank" rel="noopener"><i class="ti-instagram mr-2"></i>Instagram</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- copyright -->
-  <div class="copyright py-2 bg-footer">
+  <!-- page title -->
+  <section class="page-title-section overlay" data-background="images/backgrounds/page-title.jpg">
     <div class="container">
       <div class="row">
-        <div class="col-12 text-center">
-          <p class="mb-0">Instituto Superior Nuevo Siglo. Todos los Derechos Reservados.</p>
+        <div class="col-md-8">
+          <ul class="list-inline custom-breadcrumb">
+            <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="#">Carreras</a></li>
+            <li class="list-inline-item text-white h3 font-secondary "></li>
+          </ul>
+          <p class="text-lighten">En nuestro instituto vas a poder estudiar las siguientes carreras.</p>
         </div>
       </div>
     </div>
-  </div>
-</footer>
-<!-- =================== /FOOTER =================== -->
+  </section>
+  <!-- /page title -->
 
-<!-- jQuery -->
-<script src="plugins/jQuery/jquery.min.js?v=1.0.2"></script>
-<!-- Bootstrap JS -->
-<script src="plugins/bootstrap/bootstrap.min.js?v=1.0.2"></script>
-<!-- slick slider -->
-<script src="plugins/slick/slick.min.js?v=1.0.2"></script>
-<!-- aos -->
-<script src="plugins/aos/aos.js?v=1.0.2"></script>
-<!-- venobox popup -->
-<script src="plugins/venobox/venobox.min.js?v=1.0.2"></script>
-<!-- mixitup filter -->
-<script src="plugins/mixitup/mixitup.min.js?v=1.0.2"></script>
-<!-- google map -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&amp;libraries=places"></script>
-<script src="plugins/google-map/gmap.js?v=1.0.2"></script>
+  <!-- courses -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <!-- Tecnicatura en Pedagogía -->
+        <div class="col-lg-3 col-md-6 col-6 mb-4">
+          <div class="card h-100">
+            <div class="card-img-wrapper">
+              <img class="card-img-top" src="images/courses/Pedagogia.png" alt="Pedagogía">
+            </div>
+            <div class="card-body">
+              <ul class="list-inline mb-2">
+                <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>3 Años</li>
+                <li class="list-inline-item"><a class="text-color" href="#">Tecnicatura</a></li>
+              </ul>
+              <a href="carrerapedagogia.html">
+                <h4 class="card-title">Tecnicatura Superior en Pedagogía y Educación Social</h4>
+              </a>
+              <p class="card-text">Modalidad: Presencial y Semipresencial</p>
+              <a href="carrerapedagogia.html" class="btn btn-primary btn-sm mt-auto">Leer más</a>
+            </div>
+          </div>
+        </div>
+        <!-- Tecnicatura en Comunicación -->
+        <div class="col-lg-3 col-md-6 col-6 mb-4">
+          <div class="card h-100">
+            <div class="card-img-wrapper">
+              <img class="card-img-top" src="images/courses/course-3.png" alt="Comunicación">
+            </div>
+            <div class="card-body">
+              <ul class="list-inline mb-2">
+                <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>3 Años</li>
+                <li class="list-inline-item"><a class="text-color" href="#">Tecnicatura</a></li>
+              </ul>
+              <a href="comunicacion.html">
+                <h4 class="card-title">Tecnicatura Superior en Comunicación Gráfica y Audiovisual</h4>
+              </a>
+              <p class="card-text">Modalidad: Presencial</p>
+              <a href="comunicacion.html" class="btn btn-primary btn-sm mt-auto">Leer más</a>
+            </div>
+          </div>
+        </div>
+        <!-- Tecnicatura en Psicología Social -->
+        <div class="col-lg-3 col-md-6 col-6 mb-4">
+          <div class="card h-100">
+            <div class="card-img-wrapper">
+              <img class="card-img-top" src="images/courses/course-5.png" alt="Psicología Social">
+            </div>
+            <div class="card-body">
+              <ul class="list-inline mb-2">
+                <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>3 Años</li>
+                <li class="list-inline-item"><a class="text-color" href="#">Tecnicatura</a></li>
+              </ul>
+              <a href="carrerapsocial.html">
+                <h4 class="card-title">Tecnicatura Superior en Psicología Social</h4>
+              </a>
+              <p class="card-text">Modalidad: Presencial</p>
+              <a href="carrerapsocial.html" class="btn btn-primary btn-sm mt-auto">Leer más</a>
+            </div>
+          </div>
+        </div>
+        <!-- Tecnicatura en Diseño Gráfico -->
+        <div class="col-lg-3 col-md-6 col-6 mb-4">
+          <div class="card h-100">
+            <div class="card-img-wrapper">
+              <img class="card-img-top" src="images/courses/DiseñoGrafico.png" alt="Diseño Gráfico">
+            </div>
+            <div class="card-body">
+              <ul class="list-inline mb-2">
+                <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>3 Años</li>
+                <li class="list-inline-item"><a class="text-color" href="#">Tecnicatura</a></li>
+              </ul>
+              <a href="carreradiseno.html">
+                <h4 class="card-title">Tecnicatura Superior en Diseño Gráfico y Multimedia</h4>
+              </a>
+              <p class="card-text">Modalidad: Semipresencial</p>
+              <a href="carreradiseno.html" class="btn btn-primary btn-sm mt-auto">Leer más</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /courses -->
 
-<!-- Main Script -->
-<script src="js/script.js?v=1.0.2"></script>
-<script src="js/header.js?v=1.0.2"></script>
+  <!-- =================== FOOTER =================== -->
+  <footer>
+    <div class="footer bg-footer section-sm border-bottom" style="padding: 40px 0;">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-3 mb-lg-0 text-center">
+            <!-- logo -->
+            <a class="logo-footer" href="index.html"><img class="img-fluid mb-2 logo-blanco-redondeado"
+                src="images/logo-pie.png" alt="logo"></a>
+            <ul class="list-unstyled">
+              <li class="mb-1">Cordoba 460 - Corrientes Capital</li>
+              <li class="mb-1">+54 3795 11-0674</li>
+              <li class="mb-1"><a
+                  href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRvwLqFbvCqDQDxNwZHwLSFLXsPdspllRVLJPMLzvTNLkkFrPcqGKgKCDqXdNMbcqmrktjV"
+                  class="text-color" style="text-decoration: none;" target="_blank" rel="noopener"><i
+                    class="ti-email mr-2"></i>infoinstitutonuevosiglo@gmail.com</a></li>
+            </ul>
+          </div>
+          <!-- company -->
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-3 mb-md-0 text-center">
+            <h4 class="text-white mb-2">ISNS</h4>
+            <ul class="list-unstyled">
+              <li class="mb-1"><a class="text-color" href="nosotros.html" target="_blank">Nosotros</a></li>
+              <li class="mb-1"><a class="text-color" href="contacto.html" target="_blank">Contacto</a></li>
+              <li class="mb-1"><a class="text-color" href="carreras.html" target="_blank">Carreras</a></li>
+            </ul>
+          </div>
+          <!-- links -->
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-3 mb-md-0 text-center">
+            <h4 class="text-white mb-2">Enlaces Rápidos</h4>
+            <ul class="list-unstyled">
+              <li class="mb-1"><a class="text-color" href="https://www.uces.edu.ar/educacion-distancia" target="_blank"
+                  rel="noopener">UCES Virtual</a></li>
+              <li class="mb-1"><a class="text-color" href="https://api.whatsapp.com/send?phone=5493795110674"
+                  target="_blank" rel="noopener">WhatsApp</a></li>
+            </ul>
+          </div>
+          <!-- social -->
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-3 mb-md-0 text-center">
+            <h4 class="text-white mb-2">Síguenos</h4>
+            <ul class="list-unstyled">
+              <li class="mb-1"><a class="text-color" href="https://www.facebook.com/share/1ZWhtoCT53/" target="_blank"
+                  rel="noopener"><i class="ti-facebook mr-2"></i>Facebook</a></li>
+              <li class="mb-1"><a class="text-color" href="https://www.instagram.com/institutosuperiornuevosiglo/"
+                  target="_blank" rel="noopener"><i class="ti-instagram mr-2"></i>Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- copyright -->
+    <div class="copyright py-2 bg-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <p class="mb-0">Instituto Superior Nuevo Siglo. Todos los Derechos Reservados.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- =================== /FOOTER =================== -->
+
+  <!-- jQuery -->
+  <script src="plugins/jQuery/jquery.min.js?v=1.0.2"></script>
+  <!-- Bootstrap JS -->
+  <script src="plugins/bootstrap/bootstrap.min.js?v=1.0.2"></script>
+  <!-- slick slider -->
+  <script src="plugins/slick/slick.min.js?v=1.0.2"></script>
+  <!-- aos -->
+  <script src="plugins/aos/aos.js?v=1.0.2"></script>
+  <!-- venobox popup -->
+  <script src="plugins/venobox/venobox.min.js?v=1.0.2"></script>
+  <!-- mixitup filter -->
+  <script src="plugins/mixitup/mixitup.min.js?v=1.0.2"></script>
+  <!-- google map -->
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&amp;libraries=places"></script>
+  <script src="plugins/google-map/gmap.js?v=1.0.2"></script>
+
+  <!-- Main Script -->
+  <script src="js/script.js?v=1.0.2"></script>
+  <script src="js/header.js?v=1.0.2"></script>
 
 </body>
 
 <!-- Mirrored from institutonuevosiglo.com.ar/carreras.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 22 May 2024 13:20:19 GMT -->
-</html>
 
+</html>
